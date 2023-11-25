@@ -18,6 +18,7 @@ export const NoteCard = ({note })=> {
                     borderColor: "#fff",
                     borderBottom: "1px solid #e8e8e8",
                   }}
+                  onClick={() => console.log("clicked")}
                 />
             <Switch checkedChildren="Shared" unCheckedChildren="Private" defaultChecked={note.is_shared}/>
         </div>

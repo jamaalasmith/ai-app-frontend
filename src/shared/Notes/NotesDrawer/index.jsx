@@ -3,7 +3,7 @@ import { Drawer, Button, Switch } from 'antd';
 import { NoteCard } from '../NoteCard';
 
 export const NotesDrawer = () => {
-    const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(true);
 
     const showDrawer = () => {
         setVisible(true);
